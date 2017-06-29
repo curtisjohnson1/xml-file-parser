@@ -1,0 +1,23 @@
+{
+  "name": "xml-file-parser",
+  "version": "1.0.0",
+  "description": "parse and store XML files",
+  "main": "server.js",
+  "author": "Curtis Johnson",
+  "license": "MIT",
+  "scripts": {
+    "build": "psql -f ./database/1st_stop.sql",
+    "start": "node main.js",
+    "lint": "eslint ./",
+    "test": "mocha ./spec/"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "pg-promise": "^5.9.5",
+    "xml2js": "^0.4.17"
+  }
+}
