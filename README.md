@@ -37,7 +37,7 @@ npm install
 Next, you will need to create your local postgres SQL database by running the terminal command
 
 ```javascript
-npm run build
+npm build
 ```
 
 You should then receive confirmation that your database and all it's tables have been created.
@@ -45,7 +45,7 @@ You should then receive confirmation that your database and all it's tables have
 Finally, run command
 
 ```javascript
-npm run start
+npm start
 ```
 
 You should now have successfully parsed all XML files, returning all debit items into the archive as a JSON document, as well as saving these files into your local database. 
@@ -75,7 +75,7 @@ Alternatively, you can use a GUI such as [pgAdmin](https://www.pgadmin.org/) to 
 To be able to run all the automated tests, please open your terminal and run the following command 
 
 ```javascript
-npm run test
+npm test
 ```
 
 
